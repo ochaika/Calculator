@@ -1,23 +1,30 @@
 .message{
+	transform:scale(0.8);
+	transition:1s all;
 	color: #3B0EF0;
 	background-color:#CCF57A;
 	border:5px solid #06CC0D;
 	font-size:18px;
-	margin:5px;
-	margin-left:400px;
+	margin-top:1px;
+	margin-left:385px;
 	margin-right:10;
 	width:300px;
-	height:20;
+	height:50px;
 	padding:1px;
-	padding-left:50px;
+	padding-left:70px;
 	padding-right:10px;
+	padding-top:1px;
+	padding-bottom:20px;
+	border-radius:30px;
+	opacity:0.9;	
+	box-shadow:15px 15px 10px #047D0E;
+	
 	
 }
-.message:hover{
-	
-	transform:rotation (90deg);
-	transition: 1s;
-}	
+.messager:hover{
+	transform:rotate(90deg);
+	background-color:D40412;
+}
 	
 .val1{
 	color: #C90838;
