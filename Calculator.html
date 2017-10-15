@@ -4,22 +4,33 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>Calculator</title>
+		<link href="Calculator.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="Calculator.js"></script>
 		
 	</head>
 	
-	<body style = "background-color: #DF8C5D">
-		<script>
-		var num=23.45;
-		console.log (num);
+	<body style="background-color: #9CF7EE">
+		<img src="logo_qalight.jpg" width="250px"/>
+		<h3>Created in honor of Guru<h3/>
+				<div class="message"><H2>Simple Calculator</H2></div>
+		<big><b>For Staff<a href="http://qalight.com.ua/"> QALight</a> only</b></big>
+			
 		
-		</script>
-		<H1>Simple Calculator</H1>
-		<p>Created in honor of Guru<p/>
+				
+		<div class="message val1"><H4>Number 1</H4><input id="val1" type="number"/>
+		<H4>Number 2</H4><input id="val2" type="number"/>    <input type="button" value="+" id="btn1"/>
+		<input type="button" value="-" id="btn2"/>
+		<input type="button" value="*" id="btn3"/>
+			<input type="button" value="/" id="btn4"/>Result:<div id="result"></div></div>
 		
- <big><b>For Staff<a href="http://qalight.com.ua/"> QALight</a> only</b></big><br/>
- 
- 
-	<input id="val1" type="number"/><br/><br/>
-	<input id="val2" type="number"/><br/>
-	<br/><br/>
-	<button>Result</button>
+			
+				<div class="message val2"><H4>Factorial N!</H4><H4>Value N</H4><input id="val4" type="number"/>
+		<input type="button" value="Factorial" id="btn5"/>
+		<br/>Result:<div id="resultat"></div></div>
+		
+		
+		
+	</body>
+
+</html>

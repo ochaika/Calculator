@@ -1,0 +1,51 @@
+.message{
+	color: #3B0EF0;
+	background-color:#CCF57A;
+	border:5px solid #06CC0D;
+	font-size:18px;
+	margin:5px;
+	margin-left:400px;
+	margin-right:10;
+	width:300px;
+	height:20;
+	padding:1px;
+	padding-left:50px;
+	padding-right:10px;
+	
+}
+.message:hover{
+	
+	transform:rotation (90deg);
+	transition: 1s;
+}	
+	
+.val1{
+	color: #C90838;
+	background-color:#73F5A9;
+	border:5px solid #0FBF06;
+	font-size:15px;
+	margin:5px;
+	margin-left:400px;
+	margin-right:20px;
+	width:300px;
+	height:1;
+	padding:5px;
+	padding-left:50px;
+	padding-right:10px;
+}
+
+.val2{
+	color: #100A8C;
+	background-color:#07F2EE;
+	border:5px solid #0C75ED;
+	font-size:15px;
+	margin:5px;
+	margin-left:400px;
+	margin-right:20px;
+	width:300px;
+	height:1;
+	padding:5px;
+	padding-left:50px;
+	padding-right:10px;
+}
+
